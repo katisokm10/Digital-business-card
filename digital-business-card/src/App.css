@@ -42,6 +42,10 @@
   color: #888;
 }
 
+*{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
 .info{
   background-color: white;
@@ -140,7 +144,7 @@ footer {
 
 }
 
-footer > img {
+footer > a > img {
   width: 25px;
   height:25px;
   margin-right: 10px;
