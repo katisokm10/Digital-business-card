@@ -122,5 +122,11 @@ section > p {
 
 footer {
   background-color: rgba(213, 212, 216, 1);
+  
 
+}
+
+footer > img {
+  width: 25px;
+  height:25px;
 }
