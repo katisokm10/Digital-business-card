@@ -1,3 +1,8 @@
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+
 export default function Info() {
     return(
         <>
@@ -5,8 +10,8 @@ export default function Info() {
           <img src='./images/IMG_1054 (1).jpg' /> 
           <h1 className="info-name">Katiso Mokoena</h1>
           <p className="job-role">Fullstack Developer</p>
-          <button className="email">Email</button>
-          <button className="linkedln">Linkedln</button>
+          <button className="email"><img src="./images/email-1572-svgrepo-com.svg"/>Email</button>
+          <button className="linkedln"><FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />Linkedln</button>
          </div>
         </>
     )

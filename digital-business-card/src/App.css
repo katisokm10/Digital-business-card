@@ -76,8 +76,21 @@ button {
   font-weight: 500;
   
   
+  
+  
 }
 
+
+button > img {
+  width: 12.5px;
+  margin-right: 5px;
+  
+}
+
+
+.linkedin-icon {
+  margin-right: 5px;
+}
 
 
 .email{
@@ -132,3 +145,5 @@ footer > img {
   height:25px;
   margin-right: 10px;
 }
+
+
