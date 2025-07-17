@@ -73,48 +73,57 @@ img{
   color: rgba(244, 125, 39, 1);
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* space between the two buttons */
+  margin-top: 20px; /* optional spacing */
+}
+
 button {
   width: 115px;
   height: auto;
   font-size: 14px;
   font-weight: 500;
+
+  transition: transform 0.3s ease;
   
-  
-  
-  
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-
-button > img {
-  width: 12.5px;
-  margin-right: 5px;
-  
+button:hover {
+  transform: scale(1.05);
 }
 
-
-.linkedin-icon {
-  margin-right: 5px;
-}
-
-
-.email{
+/* Specific styles */
+.email {
   margin-right: 13px;
   background-color: white;
-  border: 1px solid rgba(209, 213, 219, 1) ;
-  color:rgba(55, 65, 81, 1);
-
-}
-
-
-.email :hover {
-      width: 14.5px;
+  border: 1px solid rgba(209, 213, 219, 1);
+  color: rgba(55, 65, 81, 1);
 }
 
 .linkedln {
   background-color: rgba(41, 127, 229, 1);
-  color: rgba(255, 255, 255, 1);
-  border: 1px solid;
- 
+  color: white;
+  border: 1px solid transparent;
+}
+
+.linkedin-icon {
+  margin-right: 3px;
+  margin-left: 11px;
+}
+
+button > img {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  margin-left: 15px;
 }
 
 section {
