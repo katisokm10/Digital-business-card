@@ -28,8 +28,9 @@ A clean, responsive digital business card built with React. This app displays pe
    ```bash
    git clone https://github.com/your-username/digital-business-card.git
    cd digital-business-card
-2. Run `npm install`
-3. Run `npm run dev`
+   
+2. **Run `npm install`**
+3. **Run `npm run dev`**
 
 ## 🔗 Connect With Me
    - 📧 Email: Momokatiso@gmail.com
